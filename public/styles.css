@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+}
+
+header, footer {
+    padding: 1rem;
+    background-color: #006666;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 96rem;
+    flex: 1 0 auto;
+    background-color: white;
+}
+
+footer {
+    min-height: 10rem;
+    flex-shrink: 0;
+}
